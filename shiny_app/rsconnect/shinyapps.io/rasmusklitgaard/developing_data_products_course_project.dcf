@@ -1,0 +1,12 @@
+name: developing_data_products_course_project
+title: developing_data_products_course_project
+username: rasmusklitgaard
+account: rasmusklitgaard
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13788037
+bundleId: 9688847
+url: https://rasmusklitgaard.shinyapps.io/developing_data_products_course_project/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

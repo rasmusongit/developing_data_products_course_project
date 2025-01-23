@@ -1,0 +1,41 @@
+---
+title: "Fitting random data by hand"
+author: "Rasmus Klitgaard"
+date: "`r date()`"
+output:
+  slidy_presentation: default
+  html_document:
+    number_sections: yes
+    toc: yes
+  ioslides_presentation: default
+mode: selfcontained
+job: Presentation
+subtitle: A gamified approach
+highlighter: highlight.js
+widgets: bootstrap
+---
+
+# Slide 1
+What do you do when you need to fit a model to some data, but have no automatic tools available?
+
+You cant remember how to do it by hand, and you dont understand the consequences of changing the parameters 
+
+# Slide 2
+
+## You need to practice!
+
+We are introducing a practice tool where you get to fit a polynomial to some data.
+
+
+
+# Slide 3
+
+We are fitting data to a function like 
+
+```{r eval=FALSE}
+y <- a + b (x-x0) + c (x-x0)^2 + d (x-x0)
+```
+
+# Slide 4
+
+You will be scored by the root mean square error, and the goal is to get as low a number as possible.
