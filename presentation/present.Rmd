@@ -39,3 +39,8 @@ y <- a + b (x-x0) + c (x-x0)^2 + d (x-x0)
 # Slide 4
 
 You will be scored by the root mean square error, and the goal is to get as low a number as possible.
+
+# Slide 5
+
+Have fun!
+My personal record was an RMSE of 2.1 - see if you can beat it.
